@@ -81,7 +81,7 @@ code {
 	padding: 1.3125em 0;
 }
 
-.site-header .main-navigation + .social-navigation {
+.site-header .main-header + .social-navigation {
 	margin-top: 2.625em;
 }
 
@@ -203,7 +203,7 @@ code {
 	margin-bottom: 5.25em;
 }
 
-.site-footer .main-navigation,
+.site-footer .main-header,
 .site-footer .social-navigation {
 	display: none;
 }

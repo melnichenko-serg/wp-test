@@ -74,11 +74,11 @@ input[type="checkbox"] {
 
 /* Main Navigation */
 
-.main-navigation ul {
+.main-header ul {
 	text-align: right;
 }
 
-.main-navigation ul ul {
+.main-header ul ul {
 	padding-left: 0;
 	padding-right: 1.5em;
 }
@@ -299,50 +299,50 @@ input[type="checkbox"] {
 
 	/* Navigation */
 
-	.main-navigation ul ul {
+	.main-header ul ul {
 		padding-right: 0;
 	}
 
-	.main-navigation ul ul:before,
-	.main-navigation ul ul:after {
+	.main-header ul ul:before,
+	.main-header ul ul:after {
 		left: 0.5em;
 		right: auto;
 	}
 
-	.main-navigation ul ul,
-	.main-navigation ul ul ul {
+	.main-header ul ul,
+	.main-header ul ul ul {
 		left: auto;
 		right: -999em;
 	}
 
-	.main-navigation ul ul li:hover > ul,
-	.main-navigation ul ul li.focus > ul {
+	.main-header ul ul li:hover > ul,
+	.main-header ul ul li.focus > ul {
 		left: auto;
 		right: 100%;
 	}
 
-	.main-navigation ul li:hover > ul,
-	.main-navigation ul li.focus > ul {
+	.main-header ul li:hover > ul,
+	.main-header ul li.focus > ul {
 		left: auto;
 		right: 0.5em;
 	}
 
-	.main-navigation ul li.menu-item-has-children:before,
-	.main-navigation ul li.menu-item-has-children:after,
-	.main-navigation ul li.page_item_has_children:before,
-	.main-navigation ul li.page_item_has_children:after {
+	.main-header ul li.menu-item-has-children:before,
+	.main-header ul li.menu-item-has-children:after,
+	.main-header ul li.page_item_has_children:before,
+	.main-header ul li.page_item_has_children:after {
 		left: 1em;
 		right: auto;
 	}
 
-	.main-navigation .menu-item-has-children > a > .icon,
-	.main-navigation .page_item_has_children > a > .icon {
+	.main-header .menu-item-has-children > a > .icon,
+	.main-header .page_item_has_children > a > .icon {
 		left: auto;
 		right: 5px;
 	}
 
-	.main-navigation ul ul .menu-item-has-children > a > .icon,
-	.main-navigation ul ul .page_item_has_children > a > .icon {
+	.main-header ul ul .menu-item-has-children > a > .icon,
+	.main-header ul ul .page_item_has_children > a > .icon {
 		left: 1em;
 		right: auto;
 		-webkit-transform: rotate(90deg);

@@ -486,7 +486,7 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 	blockquote,
 	a:hover,
 	a:focus,
-	.main-navigation .menu-item-description,
+	.main-header .menu-item-description,
 	.post-navigation .meta-nav,
 	.post-navigation a:hover .post-title,
 	.post-navigation a:focus .post-title,
@@ -548,8 +548,8 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 	td,
 	input,
 	textarea,
-	.main-navigation ul,
-	.main-navigation li,
+	.main-header ul,
+	.main-header li,
 	.post-navigation,
 	.post-navigation div + div,
 	.pagination,
@@ -678,7 +678,7 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 		/* Sidebar Text Color */
 		.secondary a:hover,
 		.secondary a:focus,
-		.main-navigation .menu-item-description,
+		.main-header .menu-item-description,
 		.widget,
 		.widget blockquote,
 		.widget .wp-caption-text,
@@ -704,8 +704,8 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 		}
 
 		/* Sidebar Border Color */
-		.main-navigation ul,
-		.main-navigation li,
+		.main-header ul,
+		.main-header li,
 		.widget input,
 		.widget textarea,
 		.widget table,

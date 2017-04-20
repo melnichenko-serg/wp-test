@@ -28,7 +28,7 @@
 			_this.html( _this.html() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
 		} );
 	}
-	initMainNavigation( $( '.main-navigation' ) );
+	initMainNavigation( $( '.main-header' ) );
 
 	// Re-initialize the main navigation when it is updated, persisting any existing submenu expanded states.
 	$( document ).on( 'customize-preview-menu-refreshed', function( e, params ) {

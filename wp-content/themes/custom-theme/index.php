@@ -32,7 +32,7 @@
                                 <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                 <div class="blog_category">
                                     <ul>
-                                        <li><?php the_category(', '); ?></li>
+                                        <li><?php the_category( ', ' ); ?></li>
                                     </ul>
                                 </div>
                                 <div class="blog_text">
@@ -46,28 +46,22 @@
                                 <div class="blog_post_img">
                                     <a href="<?php the_permalink(); ?>"> <img src="images/blog_post_img1.png" alt="image"> </a>
                                 </div>
-                                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-                                    Latin
-                                    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                                    Hampden-Sydney
-                                    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                                    and
-                                    going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                                <p><?php the_content() ?></p>
 
-                                <a href="<?php the_permalink(); ?>"> Continue reading <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <a href="<?php the_permalink(); ?>"> Continue reading <i class="fa fa-long-arrow-right"
+                                                                                         aria-hidden="true"></i></a>
                             </article>
 						<?php endwhile; ?>
 					<?php endif; ?>
-
-                    <div class="next_page">
-                        <ul class="page-numbers">
-                            <li><span class="page-numbers current">1</span></li>
-                            <li><a href="#" class="page-numbers">2</a></li>
-                            <li><a href="#" class="page-numbers">3</a></li>
-                            <li><a href="#" class="page-numbers">4</a></li>
-                            <li><a href="#" class="next page-numbers">Next</a></li>
-                        </ul>
-                    </div>
+                    <!--                    <div class="next_page">-->
+                    <!--                        <ul class="page-numbers">-->
+                    <!--                            <li><span class="page-numbers current">1</span></li>-->
+                    <!--                            <li><a href="#" class="page-numbers">2</a></li>-->
+                    <!--                            <li><a href="#" class="page-numbers">3</a></li>-->
+                    <!--                            <li><a href="#" class="page-numbers">4</a></li>-->
+                    <!--                            <li><a href="#" class="next page-numbers">Next</a></li>-->
+                    <!--                        </ul>-->
+                    <!--                    </div>-->
                 </div>
                 <!-- Sidebar -->
 				<?php get_sidebar(); ?>

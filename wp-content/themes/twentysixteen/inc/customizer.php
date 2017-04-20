@@ -505,8 +505,8 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 	.menu-toggle:hover,
 	.menu-toggle:focus,
 	a,
-	.main-navigation a:hover,
-	.main-navigation a:focus,
+	.main-header a:hover,
+	.main-header a:focus,
 	.dropdown-toggle:hover,
 	.dropdown-toggle:focus,
 	.social-navigation a:hover:before,
@@ -578,7 +578,7 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 	body,
 	blockquote cite,
 	blockquote small,
-	.main-navigation a,
+	.main-header a,
 	.menu-toggle,
 	.dropdown-toggle,
 	.social-navigation a,
@@ -705,8 +705,8 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 	input[type="tel"],
 	input[type="number"],
 	textarea,
-	.main-navigation li,
-	.main-navigation .primary-menu,
+	.main-header li,
+	.main-header .primary-menu,
 	.menu-toggle,
 	.dropdown-toggle:after,
 	.social-navigation a,
@@ -734,26 +734,26 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 	}
 
 	@media screen and (min-width: 56.875em) {
-		.main-navigation li:hover > a,
-		.main-navigation li.focus > a {
+		.main-header li:hover > a,
+		.main-header li.focus > a {
 			color: {$colors['link_color']};
 		}
 
-		.main-navigation ul ul,
-		.main-navigation ul ul li {
+		.main-header ul ul,
+		.main-header ul ul li {
 			border-color: {$colors['border_color']};
 		}
 
-		.main-navigation ul ul:before {
+		.main-header ul ul:before {
 			border-top-color: {$colors['border_color']};
 			border-bottom-color: {$colors['border_color']};
 		}
 
-		.main-navigation ul ul li {
+		.main-header ul ul li {
 			background-color: {$colors['page_background_color']};
 		}
 
-		.main-navigation ul ul:after {
+		.main-header ul ul:after {
 			border-top-color: {$colors['page_background_color']};
 			border-bottom-color: {$colors['page_background_color']};
 		}

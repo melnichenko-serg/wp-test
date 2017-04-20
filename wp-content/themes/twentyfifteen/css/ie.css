@@ -109,27 +109,27 @@ textarea {
 	padding: 0.5278em;
 }
 
-.main-navigation {
+.main-header {
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 9.0909%;
 }
 
-.main-navigation ul ul {
+.main-header ul ul {
 	border-bottom: 0;
 	border-top: 0;
 	margin-left: 1em;
 }
 
-.main-navigation a {
+.main-header a {
 	padding: 0.75em 0;
 }
 
-.main-navigation .menu-item-has-children > a {
+.main-header .menu-item-has-children > a {
 	padding-right: 48px;
 }
 
-.main-navigation .menu-item-description {
+.main-header .menu-item-description {
 	font-size: 13px;
 	line-height: 1.8462;
 	margin-top: 0;
@@ -833,12 +833,12 @@ video {
 	margin-left: auto;
 }
 
-.rtl .main-navigation ul ul {
+.rtl .main-header ul ul {
 	margin-right: 1em;
 	margin-left: auto;
 }
 
-.rtl .main-navigation .menu-item-has-children > a {
+.rtl .main-header .menu-item-has-children > a {
 	padding-right: 0;
 	padding-left: 48px;
 }

@@ -68,7 +68,7 @@ input,
 select,
 textarea,
 .post-password-form label,
-.main-navigation,
+.main-header,
 .post-navigation,
 .post-navigation .post-title,
 .pagination,
@@ -200,12 +200,12 @@ input[type="search"].search-field {
  * 5.0 - Navigation
  */
 
-.main-navigation ul ul {
+.main-header ul ul {
 	margin-right: 0.875em;
 	margin-left: auto;
 }
 
-.main-navigation .menu-item-has-children > a {
+.main-header .menu-item-has-children > a {
 	margin-right: auto;
 	margin-left: 56px;
 }
@@ -519,55 +519,55 @@ body:not(.search-results) .entry-summary .alignleft {
  */
 
 @media screen and (min-width: 56.875em) {
-	.main-navigation .primary-menu > li {
+	.main-header .primary-menu > li {
 		float: right;
 	}
 
-	.main-navigation ul ul {
+	.main-header ul ul {
 		left: auto;
 		margin: 0;
 		right: -999em;
 	}
 
-	.main-navigation ul ul:before {
+	.main-header ul ul:before {
 		left: 9px;
 		right: auto;
 	}
 
-	.main-navigation ul ul:after {
+	.main-header ul ul:after {
 		left: 11px;
 		right: auto;
 	}
 
-	.main-navigation li:hover > ul,
-	.main-navigation li.focus > ul {
+	.main-header li:hover > ul,
+	.main-header li.focus > ul {
 		left: 0;
 		right: auto;
 	}
 
-	.main-navigation ul ul li:hover > ul,
-	.main-navigation ul ul li.focus > ul {
+	.main-header ul ul li:hover > ul,
+	.main-header ul ul li.focus > ul {
 		left: 100%;
 		right: auto;
 	}
 
-	.main-navigation .menu-item-has-children > a {
+	.main-header .menu-item-has-children > a {
 		margin: 0;
 		padding-right: 0.875em;
 		padding-left: 2.25em;
 	}
 
-	.main-navigation .menu-item-has-children > a:after {
+	.main-header .menu-item-has-children > a:after {
 		left: 0.625em;
 		right: auto;
 	}
 
-	.main-navigation ul ul .menu-item-has-children > a {
+	.main-header ul ul .menu-item-has-children > a {
 		padding-right: 0.875em;
 		padding-left: 2.0625em;
 	}
 
-	.main-navigation ul ul .menu-item-has-children > a:after {
+	.main-header ul ul .menu-item-has-children > a:after {
 		left: 0.5625em;
 		right: auto;
 		top: 0.8125em;

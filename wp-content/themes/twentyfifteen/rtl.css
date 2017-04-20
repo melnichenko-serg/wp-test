@@ -64,7 +64,7 @@ textarea,
 blockquote cite,
 blockquote small,
 .post-password-form label,
-.main-navigation .menu-item-description,
+.main-header .menu-item-description,
 .post-navigation .meta-nav,
 .post-navigation .post-title,
 .pagination,
@@ -151,12 +151,12 @@ td {
  * 5.0 Navigations
  */
 
-.main-navigation ul ul {
+.main-header ul ul {
 	margin-right: 0.8em;
 	margin-left: auto;
 }
 
-.main-navigation .menu-item-has-children > a {
+.main-header .menu-item-has-children > a {
 	padding-right: 0;
 	padding-left: 48px;
 }
@@ -471,7 +471,7 @@ img.alignleft {
 		padding-left: 0;
 	}
 
-	.main-navigation ul ul {
+	.main-header ul ul {
 		margin-right: 1em;
 		margin-left: auto;
 	}
@@ -639,7 +639,7 @@ img.alignleft {
 		padding-left: 0;
 	}
 
-	.main-navigation .menu-item-has-children > a {
+	.main-header .menu-item-has-children > a {
 		padding-right: 0;
 		padding-left: 30px;
 	}
@@ -715,7 +715,7 @@ img.alignleft {
 		padding-left: 0;
 	}
 
-	.main-navigation .menu-item-has-children > a {
+	.main-header .menu-item-has-children > a {
 		padding-right: 0;
 		padding-left: 34px;
 	}
@@ -780,7 +780,7 @@ img.alignleft {
 		padding-left: 0;
 	}
 
-	.main-navigation .menu-item-has-children > a {
+	.main-header .menu-item-has-children > a {
 		padding-right: 0;
 		padding-left: 38px;
 	}

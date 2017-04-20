@@ -1880,7 +1880,7 @@ footer .footer_bottom {
         position: relative;
         width: 100%;
     }
-    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    .navbar-fixed-bottom .navbar-collapse, .main-header .navbar-collapse {
         max-height: 365px;
     }
     .tags > ul {

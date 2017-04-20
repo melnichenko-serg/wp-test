@@ -40,7 +40,7 @@
 		});
 	}
 
-	initMainNavigation( $( '.main-navigation' ) );
+	initMainNavigation( $( '.main-header' ) );
 
 	masthead       = $( '#masthead' );
 	menuToggle     = masthead.find( '.menu-toggle' );
@@ -76,8 +76,8 @@
 			if ( 'none' === $( '.menu-toggle' ).css( 'display' ) ) {
 
 				$( document.body ).on( 'touchstart.twentyseventeen', function( e ) {
-					if ( ! $( e.target ).closest( '.main-navigation li' ).length ) {
-						$( '.main-navigation li' ).removeClass( 'focus' );
+					if ( ! $( e.target ).closest( '.main-header li' ).length ) {
+						$( '.main-header li' ).removeClass( 'focus' );
 					}
 				});
 

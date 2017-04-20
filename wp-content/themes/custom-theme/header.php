@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="navbar-fixed-top">
+<header class="main-header">
     <div class="container">
         <div class="row">
             <div class="header_top">

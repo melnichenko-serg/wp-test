@@ -1,0 +1,100 @@
+/*
+Theme Name: New custom theme
+Author: Test
+Description: New custom theme for WordPress
+Version: 1.0.0
+License: GNU General Public License v3.0
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+/****** Header *****/
+
+.main-header {
+    background-color: #b1b4b6;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-navigation li {
+    margin: 0 1rem;
+}
+
+.header-navigation li:last-child {
+    margin-right: 0;
+}
+
+.header-navigation li:first-child {
+    margin-left: 0;
+}
+
+/******* Footer ******/
+
+.main-footer {
+    background-color: #d6d9db;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+
+.footer-nav, .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav li, .footer-social li {
+    margin: 0 1rem;
+}
+
+.footer-social li:first-child {
+    margin-left: 0;
+}
+
+.footer-nav li:first-child {
+    margin-left: 0;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}

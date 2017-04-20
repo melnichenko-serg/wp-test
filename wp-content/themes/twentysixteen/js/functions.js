@@ -42,7 +42,7 @@
 			screenReaderSpan.text( screenReaderSpan.text() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
 		} );
 	}
-	initMainNavigation( $( '.main-navigation' ) );
+	initMainNavigation( $( '.main-header' ) );
 
 	masthead         = $( '#masthead' );
 	menuToggle       = masthead.find( '#menu-toggle' );
@@ -80,8 +80,8 @@
 		function toggleFocusClassTouchScreen() {
 			if ( window.innerWidth >= 910 ) {
 				$( document.body ).on( 'touchstart.twentysixteen', function( e ) {
-					if ( ! $( e.target ).closest( '.main-navigation li' ).length ) {
-						$( '.main-navigation li' ).removeClass( 'focus' );
+					if ( ! $( e.target ).closest( '.main-header li' ).length ) {
+						$( '.main-header li' ).removeClass( 'focus' );
 					}
 				} );
 				siteNavigation.find( '.menu-item-has-children > a' ).on( 'touchstart.twentysixteen', function( e ) {

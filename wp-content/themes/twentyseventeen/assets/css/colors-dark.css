@@ -270,7 +270,7 @@ body.colors-dark,
 }
 
 .colors-dark h5,
-.main-navigation a:hover,
+.main-header a:hover,
 .colors-dark .entry-meta,
 .colors-dark .entry-meta a,
 .colors-dark .nav-subtitle,
@@ -407,7 +407,7 @@ body.colors-dark,
 }
 
 .colors-dark .navigation-top,
-.colors-dark .main-navigation > div > ul,
+.colors-dark .main-header > div > ul,
 .colors-dark .pagination,
 .colors-dark .comment-navigation,
 .colors-dark .entry-footer,
@@ -417,7 +417,7 @@ body.colors-dark,
 
 .colors-dark .single-featured-image-header,
 .colors-dark .navigation-top,
-.colors-dark .main-navigation li,
+.colors-dark .main-header li,
 .colors-dark .entry-footer,
 .colors-dark #comments {
 	border-bottom-color: #333;
@@ -441,7 +441,7 @@ body.colors-dark,
 body.colors-dark,
 .colors-dark .site-content-contain,
 .colors-dark .navigation-top,
-.colors-dark .main-navigation ul {
+.colors-dark .main-header ul {
 	background: #222;
 }
 
@@ -521,8 +521,8 @@ body.colors-dark,
 		color: #eee;
 	}
 
-	.colors-dark .main-navigation li li:hover,
-	.colors-dark .main-navigation li li.focus {
+	.colors-dark .main-header li li:hover,
+	.colors-dark .main-header li li.focus {
 		background: #999;
 	}
 
@@ -530,30 +530,30 @@ body.colors-dark,
 		color: #999;
 	}
 
-	.colors-dark .main-navigation ul ul {
+	.colors-dark .main-header ul ul {
 		border-color: #333;
 		background: #222;
 	}
 
-	.colors-dark .main-navigation ul li.menu-item-has-children:before,
-	.colors-dark .main-navigation ul li.page_item_has_children:before {
+	.colors-dark .main-header ul li.menu-item-has-children:before,
+	.colors-dark .main-header ul li.page_item_has_children:before {
 		border-bottom-color: #333;
 	}
 
-	.main-navigation ul li.menu-item-has-children:after,
-	.main-navigation ul li.page_item_has_children:after {
+	.main-header ul li.menu-item-has-children:after,
+	.main-header ul li.page_item_has_children:after {
 		border-bottom-color: #222;
 	}
 
-	.colors-dark .main-navigation li li.focus > a,
-	.colors-dark .main-navigation li li:focus > a,
-	.colors-dark .main-navigation li li:hover > a,
-	.colors-dark .main-navigation li li a:hover,
-	.colors-dark .main-navigation li li a:focus,
-	.colors-dark .main-navigation li li.current_page_item a:hover,
-	.colors-dark .main-navigation li li.current-menu-item a:hover,
-	.colors-dark .main-navigation li li.current_page_item a:focus,
-	.colors-dark .main-navigation li li.current-menu-item a:focus {
+	.colors-dark .main-header li li.focus > a,
+	.colors-dark .main-header li li:focus > a,
+	.colors-dark .main-header li li:hover > a,
+	.colors-dark .main-header li li a:hover,
+	.colors-dark .main-header li li a:focus,
+	.colors-dark .main-header li li.current_page_item a:hover,
+	.colors-dark .main-header li li.current-menu-item a:hover,
+	.colors-dark .main-header li li.current_page_item a:focus,
+	.colors-dark .main-header li li.current-menu-item a:focus {
 		color: #222;
 	}
 
